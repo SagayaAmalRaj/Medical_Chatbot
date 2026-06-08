@@ -3,8 +3,6 @@ Medical Appointment Voice Assistant
 Main Streamlit Application with Patient Registration
 """
 import streamlit as st
-import speech_recognition as sr
-import pyttsx3
 import openai
 import re
 from datetime import datetime
@@ -60,42 +58,6 @@ class MedicalAssistant:
             st.session_state.conversation_history = []
         
         # Initialize voice
-        try:
-            self.recognizer = sr.Recognizer()
-            self.microphone = sr.Microphone()
-            self.tts_engine = pyttsx3.init()
-            self.setup_microphone()
-        except Exception as e:
-            st.error(f"Voice initialization failed: {e}")
-    
-    def setup_microphone(self):
-        """Adjust microphone for ambient noise"""
-        try:
-            with self.microphone as source:
-                self.recognizer.adjust_for_ambient_noise(
-                    source, duration=MICROPHONE_ADJUSTMENT_DURATION
-                )
-        except Exception as e:
-            st.error(f"Microphone setup failed: {e}")
-    
-    def listen_for_voice(self):
-        """Capture voice input from user"""
-        try:
-            with self.microphone as source:
-                audio = self.recognizer.listen(
-                    source, timeout=VOICE_TIMEOUT, 
-                    phrase_time_limit=VOICE_PHRASE_TIME_LIMIT
-                )
-            
-            user_input = self.recognizer.recognize_google(audio)
-            return user_input.lower()
-        
-        except sr.WaitTimeoutError:
-            return "TIMEOUT"
-        except sr.UnknownValueError:
-            return "UNCLEAR"
-        except sr.RequestError as e:
-            return f"ERROR: {e}"
     
     def extract_patient_info(self, user_input: str) -> dict:
         """Extract patient identification from user input"""
@@ -421,27 +383,6 @@ def main():
                 key="text_input"
             )
             submit_btn = st.form_submit_button("💌 Send", type="primary")
-    
-    with col2:
-        if st.button("🎤 Voice Input", type="primary"):
-            with st.spinner("🎧 Listening..."):
-                voice_result = assistant.listen_for_voice()
-                
-                if voice_result == "TIMEOUT":
-                    st.warning("No speech detected. Please try again.")
-                elif voice_result == "UNCLEAR":
-                    st.warning("Couldn't understand. Please speak clearly.")
-                elif voice_result.startswith("ERROR"):
-                    st.error(f"Error: {voice_result}")
-                else:
-                    st.success(f"Heard: {voice_result}")
-                    with st.spinner("Processing..."):
-                        response = assistant.handle_response(voice_result)
-                        timestamp = datetime.now().strftime("%H:%M:%S")
-                        st.session_state.conversation_history.append(
-                            (voice_result, response, timestamp)
-                        )
-                        st.rerun()
     
     # Process text submission
     if submit_btn and user_input.strip():
