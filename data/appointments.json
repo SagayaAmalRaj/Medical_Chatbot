@@ -1,0 +1,32 @@
+{
+  "appointments": [
+    {
+      "appt_id": "A-2009",
+      "patient_id": "P-1002",
+      "doctor_id": "D-04",
+      "date": "2025-09-26",
+      "time": "08:00"
+    },
+    {
+      "appt_id": "A-2015",
+      "patient_id": "P-1007",
+      "doctor_id": "D-02",
+      "date": "2025-09-26",
+      "time": "16:00"
+    },
+    {
+      "appt_id": "A-2016",
+      "patient_id": "P-1005",
+      "doctor_id": "D-01",
+      "date": "2025-09-25",
+      "time": "09:00"
+    },
+    {
+      "appt_id": "A-2017",
+      "patient_id": "P-1016",
+      "doctor_id": "D-01",
+      "date": "2026-06-08",
+      "time": "09:30"
+    }
+  ]
+}

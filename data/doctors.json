@@ -1,0 +1,49 @@
+{
+  "doctors": [
+    {
+      "doctor_id": "D-01",
+      "name": "Dr. Meera Shah",
+      "specialty": "Dermatology",
+      "qualification": "MD, DDVL",
+      "experience": "12 years",
+      "consultation_fee": 800,
+      "hospital": "Apollo Hospital"
+    },
+    {
+      "doctor_id": "D-02",
+      "name": "Dr. Arjun Rao",
+      "specialty": "Cardiology",
+      "qualification": "MD, DM Cardiology",
+      "experience": "15 years",
+      "consultation_fee": 1200,
+      "hospital": "Fortis Hospital"
+    },
+    {
+      "doctor_id": "D-03",
+      "name": "Dr. Kavya Iyer",
+      "specialty": "General Medicine",
+      "qualification": "MBBS, MD",
+      "experience": "8 years",
+      "consultation_fee": 600,
+      "hospital": "City Medical Center"
+    },
+    {
+      "doctor_id": "D-04",
+      "name": "Dr. Ravi Pattel",
+      "specialty": "ENT",
+      "qualification": "MBBS, MD",
+      "experience": "8 years",
+      "consultation_fee": 500,
+      "hospital": "City Medical Center"
+    },
+    {
+      "doctor_id": "D-05",
+      "name": "Dr. Kumar",
+      "specialty": "ENT",
+      "qualification": "MBBS, MD",
+      "experience": "8 years",
+      "consultation_fee": 500,
+      "hospital": "City Medical Center"
+    }
+  ]
+}

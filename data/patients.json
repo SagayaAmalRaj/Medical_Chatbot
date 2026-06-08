@@ -1,0 +1,132 @@
+{
+  "patients": [
+    {
+      "patient_id": "P-1001",
+      "name": "Asha Rao",
+      "phone": "+91-9876543210",
+      "email": "asha.rao@email.com",
+      "age": 34,
+      "gender": "Female"
+    },
+    {
+      "patient_id": "P-1002",
+      "name": "Rahul Iyer",
+      "phone": "+91-9876543211",
+      "email": "rahul.iyer@email.com",
+      "age": 28,
+      "gender": "Male"
+    },
+    {
+      "patient_id": "P-1003",
+      "name": "John Doe",
+      "phone": "+91-9876543212",
+      "email": "john.doe@email.com",
+      "age": 45,
+      "gender": "Male"
+    },
+    {
+      "patient_id": "P-1004",
+      "name": "Priya Singh",
+      "phone": "+91-9876543213",
+      "email": "priya.singh@email.com",
+      "age": 31,
+      "gender": "Female"
+    },
+    {
+      "patient_id": "P-1005",
+      "name": "Michael Johnson",
+      "phone": "+91-9876543214",
+      "email": "michael.johnson@email.com",
+      "age": 52,
+      "gender": "Male"
+    },
+    {
+      "patient_id": "P-1006",
+      "name": "Sarah Wilson",
+      "phone": "+91-9876543215",
+      "email": "sarah.wilson@email.com",
+      "age": 29,
+      "gender": "Female"
+    },
+    {
+      "patient_id": "P-1007",
+      "name": "David Kumar",
+      "phone": "+91-9876543216",
+      "email": "david.kumar@email.com",
+      "age": 38,
+      "gender": "Male"
+    },
+    {
+      "patient_id": "P-1008",
+      "name": "Lisa Patel",
+      "phone": "+91-9876543217",
+      "email": "lisa.patel@email.com",
+      "age": 26,
+      "gender": "Female"
+    },
+    {
+      "patient_id": "P-1009",
+      "name": "Robert Chen",
+      "phone": "+91-9876543218",
+      "email": "robert.chen@email.com",
+      "age": 41,
+      "gender": "Male"
+    },
+    {
+      "patient_id": "P-1010",
+      "name": "Maria Garcia",
+      "phone": "+91-9876543219",
+      "email": "maria.garcia@email.com",
+      "age": 33,
+      "gender": "Female"
+    },
+    {
+      "patient_id": "P-1011",
+      "name": "Amit Sharma",
+      "phone": "+91-9876543220",
+      "email": "amit.sharma@email.com",
+      "age": 27,
+      "gender": "Male"
+    },
+    {
+      "patient_id": "P-1012",
+      "name": "Kavita Gupta",
+      "phone": "+91-9876543221",
+      "email": "kavita.gupta@email.com",
+      "age": 39,
+      "gender": "Female"
+    },
+    {
+      "patient_id": "P-1013",
+      "name": "James Anderson",
+      "phone": "+91-9876543222",
+      "email": "james.anderson@email.com",
+      "age": 47,
+      "gender": "Male"
+    },
+    {
+      "patient_id": "P-1014",
+      "name": "Sneha Reddy",
+      "phone": "+91-9876543223",
+      "email": "sneha.reddy@email.com",
+      "age": 25,
+      "gender": "Female"
+    },
+    {
+      "patient_id": "P-1015",
+      "name": "Thomas Brown",
+      "phone": "+91-9876543224",
+      "email": "thomas.brown@email.com",
+      "age": 35,
+      "gender": "Male"
+    },
+    {
+      "patient_id": "P-1016",
+      "name": "Sagaya Amalraj P",
+      "age": 25,
+      "phone": "+917339280970",
+      "email": "sagayaamalraj1999@gmail.com",
+      "gender": "Male"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+# Environment and Configuration
+.env
+.env.local
+.env.*.local
+.env
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+ENV/
+env/
+.venv
+env.bak/
+venv.bak/
+
+# IDE and Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# Streamlit
+.streamlit/
+.streamlit.yml
+.streamlit/secrets.toml
+
+# Cache and Temporary Files
+*.cache
+.cache/
+.pytest_cache/
+.coverage
+htmlcov/
+*.log
+*.pot
+
+# Data and Secrets
+*.json  # Only if storing sensitive data
+api_key.py
+secrets/
+*.key
+*.pem
+*.cert
+
+# OS Specific
+Thumbs.db
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE Configuration (optional)
+*.iml
+.gradle
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+.streamlit/secrets.toml
+.env
+.env.*
+env
