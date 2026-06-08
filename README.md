@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Medical Appointment Voice Assistant
 
 A production-ready voice-enabled Streamlit chatbot for managing medical appointments. Built with modular architecture for scalability and maintainability.
@@ -347,3 +348,7 @@ For issues or questions:
 
 **Last Updated:** 2025-09-21
 **Version:** 2.0 (Production-Ready)
+=======
+# Medical_Chatbot
+AI-powered Medical Appointment Booking Assistant built with Streamlit, OpenAI GPT, voice interaction, patient registration, doctor availability management, and appointment scheduling.
+>>>>>>> 47d315d32e60572359eec56ee4b4b0702ee3b295
