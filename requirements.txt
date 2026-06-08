@@ -1,6 +1,4 @@
 streamlit==1.38.0
 openai==0.28.1
 SpeechRecognition==3.10.0
-pyttsx3==2.99
-PyAudio==0.2.13
 python-dotenv==1.0.0
